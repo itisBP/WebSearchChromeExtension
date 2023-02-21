@@ -1,0 +1,14 @@
+{  
+    "manifest_version": 2,  
+    "name": "Spotify Searcher",  
+    "description": "Extension for searching spotify on right click",  
+    "version": "1.0",  
+    "browser_action": { 
+        "default_popup": "popup.html"  
+    },  
+    "background": { 
+        "scripts": ["script.js"]
+    },
+    "permissions": ["activeTab", "contextMenus"],
+    "icons": {"16": "Images/Spotify_App_Logo.png", "48": "Images/Spotify_App_Logo.png"}
+} 
